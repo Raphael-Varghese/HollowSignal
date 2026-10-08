@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hs:scare_face",
+      "materials": {
+        "default": "entity_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/scare_face"
+      },
+      "geometry": {
+        "default": "geometry.hs_scare"
+      },
+      "animations": {
+        "shake": "animation.hs.scare_shake"
+      },
+      "scripts": {
+        "animate": [
+          "shake"
+        ],
+        "scale": "2.4"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}
