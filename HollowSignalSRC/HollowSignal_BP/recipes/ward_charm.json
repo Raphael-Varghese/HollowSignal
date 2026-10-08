@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hs:ward_charm"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "hs:memory_shard"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "hs:ward_charm"
+    }
+  }
+}
