@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hs:crawler",
+      "materials": {
+        "default": "entity_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/crawler"
+      },
+      "geometry": {
+        "default": "geometry.hs_crawler"
+      },
+      "animations": {
+        "walk": "animation.hs.walk_quad"
+      },
+      "scripts": {
+        "animate": [
+          "walk"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#9a948c",
+        "overlay_color": "#101010"
+      }
+    }
+  }
+}
