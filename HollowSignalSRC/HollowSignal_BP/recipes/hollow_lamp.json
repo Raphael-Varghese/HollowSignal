@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hs:hollow_lamp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GGG",
+      "GSG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "S": {
+        "item": "hs:memory_shard"
+      }
+    },
+    "result": {
+      "item": "hs:hollow_lamp",
+      "count": 4
+    }
+  }
+}
