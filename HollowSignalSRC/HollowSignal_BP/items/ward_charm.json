@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hs:ward_charm",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hs_ward_charm"
+      },
+      "minecraft:max_stack_size": 8,
+      "minecraft:display_name": {
+        "value": "Ward Charm"
+      },
+      "minecraft:glint": true
+    }
+  }
+}
