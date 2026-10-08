@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hs:mimic",
+      "materials": {
+        "default": "entity_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/mimic",
+        "angry": "textures/entity/mimic_angry"
+      },
+      "geometry": {
+        "default": "geometry.hs_mimic"
+      },
+      "animations": {
+        "walk": "animation.hs.walk_humanoid",
+        "look": "animation.hs.look"
+      },
+      "scripts": {
+        "animate": [
+          "walk",
+          "look"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.hs_mimic"
+      ],
+      "spawn_egg": {
+        "base_color": "#d6b298",
+        "overlay_color": "#6e1919"
+      }
+    }
+  }
+}
