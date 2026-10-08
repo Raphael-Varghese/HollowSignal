@@ -1,0 +1,177 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.hs_crawler",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 5,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            8,
+            -6
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                5,
+                -12
+              ],
+              "size": [
+                6,
+                6,
+                6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            8,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                5,
+                -6
+              ],
+              "size": [
+                8,
+                6,
+                14
+              ],
+              "uv": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "legFR",
+          "pivot": [
+            -4,
+            8,
+            -4
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6,
+                0,
+                -5
+              ],
+              "size": [
+                2,
+                10,
+                2
+              ],
+              "uv": [
+                44,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "legFL",
+          "pivot": [
+            4,
+            8,
+            -4
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4,
+                0,
+                -5
+              ],
+              "size": [
+                2,
+                10,
+                2
+              ],
+              "uv": [
+                52,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "legBR",
+          "pivot": [
+            -4,
+            8,
+            5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6,
+                0,
+                4
+              ],
+              "size": [
+                2,
+                10,
+                2
+              ],
+              "uv": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "name": "legBL",
+          "pivot": [
+            4,
+            8,
+            5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4,
+                0,
+                4
+              ],
+              "size": [
+                2,
+                10,
+                2
+              ],
+              "uv": [
+                8,
+                32
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
