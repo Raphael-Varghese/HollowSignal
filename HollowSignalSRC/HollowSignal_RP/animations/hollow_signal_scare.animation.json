@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hs.scare_shake": {
+      "loop": true,
+      "bones": {
+        "face": {
+          "rotation": [
+            0,
+            0,
+            "math.random(-7, 7)"
+          ],
+          "position": [
+            "math.random(-0.4, 0.4)",
+            "math.random(-0.4, 0.4)",
+            0
+          ]
+        },
+        "jaw": {
+          "rotation": [
+            "28 + math.random(-6, 6)",
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}
