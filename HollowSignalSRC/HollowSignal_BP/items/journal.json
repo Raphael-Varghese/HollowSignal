@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hs:journal",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hs_journal"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "Worn Journal"
+      }
+    }
+  }
+}
