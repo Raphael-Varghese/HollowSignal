@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hs:lurker",
+      "materials": {
+        "default": "entity_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/lurker"
+      },
+      "geometry": {
+        "default": "geometry.hs_crawler"
+      },
+      "animations": {
+        "walk": "animation.hs.walk_quad"
+      },
+      "scripts": {
+        "animate": [
+          "walk"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#0c0c0f",
+        "overlay_color": "#f5f5f5"
+      }
+    }
+  }
+}
