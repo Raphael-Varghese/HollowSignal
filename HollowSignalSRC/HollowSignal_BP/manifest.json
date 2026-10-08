@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Hollow Signal - Behavior Pack",
+    "description": "Original psychological-horror story add-on. Opt-in personalization.",
+    "uuid": "680f7766-80bf-4258-9cef-b5dd4e7b3156",
+    "version": [
+      1,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "192fe9e5-ded5-4776-96de-ed47fc215e7f",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "ee587926-317e-49b7-9e62-5521b4b1586d",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0984f9b3-8378-4942-b711-38478bbe780e",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ]
+}
