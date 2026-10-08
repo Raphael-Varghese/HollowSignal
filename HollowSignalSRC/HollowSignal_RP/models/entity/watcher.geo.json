@@ -1,0 +1,177 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.hs_watcher",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 5,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            42,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                42,
+                -3
+              ],
+              "size": [
+                6,
+                8,
+                6
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            42,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                24,
+                -2
+              ],
+              "size": [
+                6,
+                18,
+                4
+              ],
+              "uv": [
+                24,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rightArm",
+          "pivot": [
+            -4,
+            41,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6,
+                14,
+                -1
+              ],
+              "size": [
+                2,
+                27,
+                2
+              ],
+              "uv": [
+                44,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leftArm",
+          "pivot": [
+            4,
+            41,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4,
+                14,
+                -1
+              ],
+              "size": [
+                2,
+                27,
+                2
+              ],
+              "uv": [
+                52,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rightLeg",
+          "pivot": [
+            -2,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                0,
+                -1
+              ],
+              "size": [
+                2,
+                24,
+                2
+              ],
+              "uv": [
+                60,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leftLeg",
+          "pivot": [
+            2,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                1,
+                0,
+                -1
+              ],
+              "size": [
+                2,
+                24,
+                2
+              ],
+              "uv": [
+                68,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
